@@ -1,0 +1,33 @@
+body {
+  background-image: url(./time.jpg);
+  min-height: 100vh;
+  filter: grayscale(100%);
+  justify-items: center;
+  display: grid;
+  align-items: center;
+}
+.countdown-container {
+  width: 35%;
+  height: 95%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(238, 237, 237);
+  border-radius: 6px;
+  background-image: url(./time.jpg);
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+  font-family: "Dancing Script", cursive;
+  line-height: 15px;
+}
+span {
+  font-size: 30px;
+}
+p {
+  font-size: 50px;
+  font-weight: bold;
+}
