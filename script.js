@@ -3,7 +3,7 @@ const daysItem = document.getElementById("days"),
   minutesItem = document.getElementById("minutes"),
   secondsItem = document.getElementById("seconds");
 
-const ramadan = "1 jan 2022";
+const ramadan = "1 jan 2024";
 
 function countdown() {
   const newRamadanDate = new Date(ramadan);
